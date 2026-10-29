@@ -1,0 +1,80 @@
+body {
+    background-color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    div.container {
+        width: 1000px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 2px 30px 30px;
+
+            header {
+                height: 140px;
+                background: white;
+                display: block;
+                text-align:center;
+                border-bottom: 3px solid black;
+            }
+
+            section.top-duck {
+                img {
+                    &.ducks {
+                        max-width: 500px;
+                        height: auto;
+                        margin-left: 250px;
+                    }
+                }
+            }
+
+            section.middle-kingfisher {
+                img {
+                    &.kingfisher {
+                        max-width: 800px;
+                        height: auto;
+                        margin-left: 250px;
+                    }
+                }
+            }
+
+            section.bottom-roller {
+                img {
+                    &.roller {
+                        max-width: 800px;
+                        height: auto;
+                        margin-left: 250px;
+                    }
+                }
+        }
+    }
+
+    h1 {
+        font-size: 5rem;
+        text-transform: uppercase;
+        color: lightseagreen;
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        font-size: 1.3rem;
+        padding: 8px 20px 20px;
+        border-bottom: 2px solid lightseagreen;
+        font-family: georga, serif;
+
+        a {
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+    }
+}
